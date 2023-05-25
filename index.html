@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Web Somm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Sofia+Sans+Extra+Condensed:wght@200;400&display=swap" rel="stylesheet">     <style>
+      html {
+        font-size: 100%;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(243, 240, 235);
+      }
+      body, html {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1400px;
+        padding: 1rem;
+        margin: 0 auto;
+        height: 100vh;
+        height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h1,
+      h2 {
+        color: #231c1c;
+      }    
+      h1 {
+        font-family: "Sofia Sans Extra Condensed", "Arial Narrow", sans-serif;
+        font-size: clamp(5em, 25vw, 10em);
+        font-weight: 200;
+        margin: 0;
+        line-height: .7;
+        position: relative;
+        padding-top: 0.3em;
+        word-break:keep-all;
+        /* text-transform: uppercase; */
+      }
+      h2 {
+        font-family: "IBM Plex Serif", "Times New Roman", Times, serif;
+        font-size: clamp(1em, 4vw, 1.5em);
+        font-weight: 400;
+        margin: .5em .5em 0;
+        line-height: 1.125;
+        position: relative;
+      }
+      .eyebrow {
+        position: absolute;
+        vertical-align: top;
+        top: 0;
+        left: 0;
+        font-size: 0.4em;
+        font-weight: 400;
+        /* text-transform: none; */
+        /* text-transform: uppercase; */
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="content">
+        <h1><span class="eyebrow">The </span>Web Somm</h1>
+        <h2>Your guide to a finer web experience.</h2>
+      </div>
+    </main>
+  </body>
+</html>
